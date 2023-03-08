@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -avm --include='*.html' -f 'hide,! */' ./ ../
+cp -u *.html .. 
