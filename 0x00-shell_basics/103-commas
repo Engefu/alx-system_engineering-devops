@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ap | tr '\n' ',' | sed 's/,$/\n/'
+ls -1a | sed ':a;N;$!ba;s/\n/, /g' | sed 's/\(.*\)\/$/\1\/,/' | sort -d -f --key=1.2
