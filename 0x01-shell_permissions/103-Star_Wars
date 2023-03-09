@@ -1,2 +1,2 @@
 #!/bin/bash
-curl -s https://raw.githubusercontent.com/daviddexter/Star_Wars_Text_Game/master/start_game.sh | bash -s -- IV
+telnet towel.blinkenlights.nl
