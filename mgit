@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "project 7"
+git commit -m "project 8"
 git push
